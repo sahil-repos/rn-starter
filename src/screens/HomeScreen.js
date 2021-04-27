@@ -15,9 +15,9 @@ title="Go to List demo"
 onPress={()=>{navigation.navigate('List')}}
 />
 
-  <TouchableOpacity onPress={()=>{navigation.navigate('List')}}>
+  <TouchableOpacity onPress={()=>{navigation.navigate('Image')}}>
     <Text>
-      Go to TouchableOpacity test
+      Go to Image Screen
     </Text>
   </TouchableOpacity>
   </View>
